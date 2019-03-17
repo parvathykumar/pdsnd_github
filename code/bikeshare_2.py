@@ -147,6 +147,10 @@ def user_stats(df):
 
 
 def main():
+    """
+    Function that is invoked in the main block.
+    The function accepts user-input, performs the necessary computation and prints the data.
+    """
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
