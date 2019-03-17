@@ -12,7 +12,9 @@ The objective of the project is to analyse biking trends in
 
 In order to do so, python functions were created to
 1. Read data from the provided CSV files &
-2. Perform basic summary statistics based on user inputted filters. 
+2. Perform basic summary statistics based on user inputted filters.
+
+The functions leveraged the Pandas package to consume the data and perform the required analysis. 
 
 ### Files used
 **Python Script** 
