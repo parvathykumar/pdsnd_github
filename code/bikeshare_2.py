@@ -110,7 +110,6 @@ def trip_duration_stats(df):
     # display total travel time
     df['Time Taken'] = pd.to_datetime(df['End Time']) - pd.to_datetime(df['Start Time'])
     total_travel_time = df['Time Taken'].sum()
-    # print(f'The Total Travel Time is {total_travel_time}')
     print(f'The Total Travel Time is {total_travel_time.days} days, '
           f'{total_travel_time.seconds // 3600} hours, '
           f'{(total_travel_time.seconds//60)%60} minutes & '
@@ -119,7 +118,6 @@ def trip_duration_stats(df):
 
     # display mean travel time
     mean_travel_time = df['Time Taken'].mean()
-    # print(f'The Mean Travel Time is {mean_travel_time}')
     print(f'The Mean Travel Time is {mean_travel_time.days} days, '
           f'{mean_travel_time.seconds // 3600} hours, '
           f'{(mean_travel_time.seconds//60)%60} minutes & '
