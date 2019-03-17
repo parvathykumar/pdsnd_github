@@ -2,7 +2,7 @@
 Saturday, March 16th 2019
 
 ### Project Title
-BikeShare Analysis
+*Analysis of BikeShare usage data across three major US cities*
 
 ### Description
 The objective of the project is to analyse biking trends in 
