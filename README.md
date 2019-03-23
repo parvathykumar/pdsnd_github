@@ -5,12 +5,12 @@ Saturday, March 16th 2019
 *Analysis of BikeShare usage data across three major US cities*
 
 ### Description
-The objective of the project is to analyse biking trends in 
-* Chicago
-* New York &
-* Washington
+The objective of the project is to analyze biking trends in 
+* Chicago, IL
+* New York City, NY &
+* Washington, D.C.
 
-In order to do so, python functions were created to
+In order to do so, python functions were created and utilized to
 1. Read data from the provided CSV files &
 2. Perform basic summary statistics based on user inputted filters.
 
