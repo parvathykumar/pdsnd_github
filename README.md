@@ -18,7 +18,10 @@ The functions leveraged the Pandas package to consume the data and perform the r
 
 ### Files used
 **Python Script** 
- * `bikeshare_2.py`
+ * `code/bikeshare_2.py`
+
+**Configuration File** 
+ * `.gitignore`
 
 **Data Files (not included in this repo)**
  * chicago.csv
